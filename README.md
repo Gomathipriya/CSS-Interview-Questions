@@ -22,6 +22,8 @@ Border: Maximum area in which the element will be contained <br>
 Padding: Spacing between the border and the element<br>
 Margin: Spacing between the border and the neighbouring element<br>
 
+Selectors
+=========
 <code> div,p</code> - selects all the div elements and the p elements <br>
 <code> div p </code> - Descendent Selector - Selects all the p elements anywhere inside the div element <br>
 <code> div>p </code> - Child Selector - Selects all the p elements whose immediate parent is div <br>
@@ -30,6 +32,12 @@ Margin: Spacing between the border and the neighbouring element<br>
 <code> a[href^="https"] </code> - Selects every a element whose href attribute value begins with https <br>
 <code> a[href$=".pdf"] </code> - Selects every a element whose href attribute value ends with .pdf <br>
 <code> a[href*="css"] </code> - Selects every a element whose href attribute value contains the substring css <br>
+
+Rule set
+=======
+Selector can be attached to another selector to be identified by ruleset.<br>
+It has two part selector and declaration <br>
+eg. p { text-indent: 11px; }
 
 
 
