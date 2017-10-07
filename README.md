@@ -39,6 +39,54 @@ Selector can be attached to another selector to be identified by ruleset.<br>
 It has two part selector and declaration <br>
 eg. p { text-indent: 11px; }
 
+Difference between display:none and Visibility:hidden 
+=====================================================
+<strong>Display: none</strong> <br>
+   Will hide the element and will not take any space of the element <br>
+<strong>Visibility: hidden</strong> <br>
+   Will hide the element, will take the space of the element and will affect the entire layout of the document <br>
+   
+Difference between inline and block elements
+============================================
+Block Elements:
+- Will leave space before and after the element
+- Uses full width available
+- eg. div, h1
+Inline Elements:
+- Will take only the required width
+- eg.  span,a
+
+Line break using span
+=====================
+span style="display:block"
+
+Rounded corners
+===============
+- Can be given using border radius
+- Properties
+  1. border-radius
+  2. border-bottom-right-radius
+  3. border-bottom-left-radius
+  4. border-top-right-radius
+  5. border-top-left-radius
+  
+New backgrounds in css3
+=======================
+- background-clip
+- background-origin
+- background-size
+
+New Texts in css3
+=================
+- word-wrap
+- word-break
+- text-overflow
+
+Opacity in css3
+===============
+- Used to hide or show an element
+- value 0 to hide
+- value 1 to show
 
 
 
