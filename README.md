@@ -88,5 +88,49 @@ Opacity in css3
 - value 0 to hide
 - value 1 to show
 
+pseudo-class
+============
+- Keyword added to the selector (pattern that mach against elements in tree)
+- specifies a <strong> special state </strong> of the selected element
+- Apply style to the element - not only in relation to the content of the document tree but also external factors like history (: visited), status of content (:checked) or position of the mouse (:hover)
+- Can chain many pseudoclass together
+```
+button : hover {
+  color : blue
+}
+
+p:first-child{
+color:blue
+}
+
+p i:first-child{
+color:blue
+}
+
+p:first-child i{
+color:blue
+}
+
+selector : pseudo-class {
+  property : value
+}
+```
+- eg :link, :visited, :active ,:focus , :nth-child() , :last-child, :only-child
+
+psudo-elements
+==============
+
+- keyword added to selector (pattern that mach against elements in tree)
+- Style a <strong> specific part </strong> of the selected elements
+```
+p::first-line{
+ color:blue
+}
+selector :: pseudo-element {
+  property : value
+}
+```
+ - Content related - ::after, ::before
+ - Text related - ::first-letter, ::first-line
 
 
